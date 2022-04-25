@@ -234,6 +234,19 @@
           </tr>
           
           <tr>
+            <td><a href="e6c275ef31f1e613c341aec5a038b6e0.html">part_type_id</a></td>
+            <td>STRING(36)</td>
+            <td><span class='label label-info'>false</span></td>
+            <td><span class='label label-info'>true</span></td>
+            <td>
+              
+              <span class='label label-info'>null</span>
+            </td>
+            <td><span class='label label-info'>false</span></td>
+            <td><span class='label label-info'>false</span></td>
+          </tr>
+          
+          <tr>
             <td><a href="b4d638628b6d0ef45237f642864cdf6d.html">name</a></td>
             <td>STRING</td>
             <td><span class='label label-info'>false</span></td>
@@ -299,8 +312,8 @@
           </tr>
           
           <tr>
-            <td><a href="93bb267979d5a955fa85a24cccf740e3.html">lead_time</a></td>
-            <td>DATE</td>
+            <td><a href="3f39b9479eaddfc89a2514e7c89ce2bc.html">standard_order_amount</a></td>
+            <td>INTEGER</td>
             <td><span class='label label-info'>false</span></td>
             <td><span class='label label-info'>false</span></td>
             <td>
@@ -312,10 +325,10 @@
           </tr>
           
           <tr>
-            <td><a href="e6c275ef31f1e613c341aec5a038b6e0.html">part_type_id</a></td>
-            <td>STRING(36)</td>
+            <td><a href="93bb267979d5a955fa85a24cccf740e3.html">lead_time</a></td>
+            <td>DATE</td>
             <td><span class='label label-info'>false</span></td>
-            <td><span class='label label-info'>true</span></td>
+            <td><span class='label label-info'>false</span></td>
             <td>
               
               <span class='label label-info'>null</span>
@@ -379,45 +392,6 @@
           </tr>
           
           <tr>
-            <td><a href="3ed5b6f3cc509818bf92aab43eb1b1a7.html">standar_use_quantity</a></td>
-            <td>INTEGER</td>
-            <td><span class='label label-info'>false</span></td>
-            <td><span class='label label-info'>false</span></td>
-            <td>
-              
-              <span class='label label-info'>null</span>
-            </td>
-            <td><span class='label label-info'>false</span></td>
-            <td><span class='label label-info'>false</span></td>
-          </tr>
-          
-          <tr>
-            <td><a href="ec861e1a6a6d92c9ca267308970dc45b.html">standard_stock</a></td>
-            <td>INTEGER</td>
-            <td><span class='label label-info'>false</span></td>
-            <td><span class='label label-info'>false</span></td>
-            <td>
-              
-              <span class='label label-info'>null</span>
-            </td>
-            <td><span class='label label-info'>false</span></td>
-            <td><span class='label label-info'>false</span></td>
-          </tr>
-          
-          <tr>
-            <td><a href="77eeb3c2897f5d2ce5f25dec2200fc57.html">material_order_quantity</a></td>
-            <td>INTEGER</td>
-            <td><span class='label label-info'>false</span></td>
-            <td><span class='label label-info'>false</span></td>
-            <td>
-              
-              <span class='label label-info'>null</span>
-            </td>
-            <td><span class='label label-info'>false</span></td>
-            <td><span class='label label-info'>false</span></td>
-          </tr>
-          
-          <tr>
             <td><a href="67e84189df818a0ccdd9686b9cae1777.html">auto_order</a></td>
             <td>BOOLEAN</td>
             <td><span class='label label-info'>false</span></td>
@@ -444,20 +418,22 @@
           </tr>
           
           <tr>
-            <td><a href="b91ac54818f42e2bd59f120e15e6321c.html">work_instruction</a></td>
-            <td>BOOLEAN</td>
+            <td><a href="f2d14eaffb38e1850b916248b4bd7032.html">inventory_id</a></td>
+            <td>STRING(36)</td>
             <td><span class='label label-info'>false</span></td>
-            <td><span class='label label-info'>false</span></td>
+            <td><span class='label label-info'>true</span></td>
             <td>
               
-              <span class='label label-info'>null</span>
+                <a href='56086b77f614ad161b45427c7c597ca2.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>inventories</a> ::
+              
+              <a href='48591ae3d6a030c0451478127841c1ba.html'><span class='node-icon staruml-icon icon-ERDColumn'></span>id</a>
             </td>
             <td><span class='label label-info'>false</span></td>
             <td><span class='label label-info'>false</span></td>
           </tr>
           
           <tr>
-            <td><a href="6c915bd65bcf90db466a64d705e37973.html">updated_at</a></td>
+            <td><a href="55e37ab327c890af94ee9aa889e653cd.html">created_at</a></td>
             <td>DATETIME</td>
             <td><span class='label label-info'>false</span></td>
             <td><span class='label label-info'>false</span></td>
@@ -470,7 +446,7 @@
           </tr>
           
           <tr>
-            <td><a href="55e37ab327c890af94ee9aa889e653cd.html">created_at</a></td>
+            <td><a href="6c915bd65bcf90db466a64d705e37973.html">updated_at</a></td>
             <td>DATETIME</td>
             <td><span class='label label-info'>false</span></td>
             <td><span class='label label-info'>false</span></td>
@@ -515,6 +491,22 @@
           
           
           <tr>
+            <td><a href='cccc60cd9af3e0316347726f1aaa479f.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>products</a></td>
+            <td>0..*</td>
+            <td></td>
+            <td><a href='b5022b323f7ad469e8607e5333d2e8e8.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(products—materials)</a></td>
+          </tr>
+          
+          
+          <tr>
+            <td><a href='8ab6f1a0f21d497f3cefa4071c75f466.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>part_types</a></td>
+            <td>1</td>
+            <td></td>
+            <td><a href='77c2bc0382749aa0e9a0b62dd604f2ca.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(part_types—materials)</a></td>
+          </tr>
+          
+          
+          <tr>
             <td><a href='63e38ea170a38580e410578fee33b4cd.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>partners</a></td>
             <td>1</td>
             <td></td>
@@ -539,14 +531,6 @@
           
           
           <tr>
-            <td><a href='8ab6f1a0f21d497f3cefa4071c75f466.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>part_types</a></td>
-            <td>1</td>
-            <td></td>
-            <td><a href='77c2bc0382749aa0e9a0b62dd604f2ca.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(part_types—materials)</a></td>
-          </tr>
-          
-          
-          <tr>
             <td><a href='7eb6faf74cbf3f01d2e0b4f789feeceb.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>purchase_orders</a></td>
             <td>0..*</td>
             <td></td>
@@ -555,18 +539,18 @@
           
           
           <tr>
-            <td><a href='cccc60cd9af3e0316347726f1aaa479f.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>products</a></td>
-            <td>0..*</td>
-            <td></td>
-            <td><a href='b5022b323f7ad469e8607e5333d2e8e8.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(products—materials)</a></td>
-          </tr>
-          
-          
-          <tr>
             <td><a href='b5ce83c58699269a71a13d7a542eb436.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>product_links</a></td>
             <td>0..*</td>
             <td></td>
             <td><a href='ba8a37749e7ad4566e26416a73930c81.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(materials—product_links)</a></td>
+          </tr>
+          
+          
+          <tr>
+            <td><a href='56086b77f614ad161b45427c7c597ca2.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>inventories</a></td>
+            <td>1</td>
+            <td></td>
+            <td><a href='ebd16a769a264826ff0fa7f834038d79.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(materials—inventories)</a></td>
           </tr>
           
         </table>                
@@ -633,19 +617,21 @@
     <h3>Relationships</h3>
     <ul class="nav nav-list">
         
+        <li><a href='b5022b323f7ad469e8607e5333d2e8e8.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(products—materials)</a></li>
+        
+        <li><a href='77c2bc0382749aa0e9a0b62dd604f2ca.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(part_types—materials)</a></li>
+        
         <li><a href='71bb4a2bf9ebe31e4f70c191dc300178.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(partners—materials)</a></li>
         
         <li><a href='f174de0134c2ae44846fdf406790b3c8.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(materials—master_products)</a></li>
         
         <li><a href='38ed0403750c26d6b4cf9f6c77b903a0.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(materials—materials)</a></li>
         
-        <li><a href='77c2bc0382749aa0e9a0b62dd604f2ca.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(part_types—materials)</a></li>
-        
         <li><a href='27285cf091875cb9bb02e358ee4d0db6.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(materials—purchase_orders)</a></li>
         
-        <li><a href='b5022b323f7ad469e8607e5333d2e8e8.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(products—materials)</a></li>
-        
         <li><a href='ba8a37749e7ad4566e26416a73930c81.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(materials—product_links)</a></li>
+        
+        <li><a href='ebd16a769a264826ff0fa7f834038d79.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(materials—inventories)</a></li>
         
     </ul>
 </section>
@@ -669,6 +655,8 @@
         <li><a href='27285cf091875cb9bb02e358ee4d0db6.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(materials—purchase_orders)</a></li>
         
         <li><a href='ba8a37749e7ad4566e26416a73930c81.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(materials—product_links)</a></li>
+        
+        <li><a href='ebd16a769a264826ff0fa7f834038d79.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(materials—inventories)</a></li>
         
     </ul>
 </section>

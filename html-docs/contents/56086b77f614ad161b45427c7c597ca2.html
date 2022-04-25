@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="UTF-8">
-    <title>product_links</title>
+    <title>inventories</title>
     <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic|Source+Code+Pro:300,400,700' rel='stylesheet' type='text/css'>
 <link rel="stylesheet" href="../assets/css/bootstrap.css">
 <link rel="stylesheet" href="../assets/css/jquery.bonsai.css">
@@ -18,7 +18,7 @@
 
       <!-- Name Title -->
 
-      <h1>product_links</h1>
+      <h1>inventories</h1>
 
       <!-- Type and Stereotype -->
 
@@ -43,7 +43,7 @@
           <span class="label label-info"><a href='a4bae6b6e7ebfd021fbf52221ebda8e7.html'><span class='node-icon staruml-icon icon-ERDDataModel'></span>v1.1</a></span>
         
           <span>::</span>
-          <span class="label label-info"><a href='b5ce83c58699269a71a13d7a542eb436.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>product_links</a></span>
+          <span class="label label-info"><a href='56086b77f614ad161b45427c7c597ca2.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>inventories</a></span>
         
       </section>
 
@@ -195,7 +195,7 @@
           </tr>
           
           <tr>
-            <td><a href="428038b3c8d5b5144764e6d444c67c4f.html">id</a></td>
+            <td><a href="48591ae3d6a030c0451478127841c1ba.html">id</a></td>
             <td>STRING(36)</td>
             <td><span class='label label-info'>true</span></td>
             <td><span class='label label-info'>false</span></td>
@@ -208,48 +208,7 @@
           </tr>
           
           <tr>
-            <td><a href="f9830d4468b96ef35e66e5453a168566.html">parent_id</a></td>
-            <td>STRING(36)</td>
-            <td><span class='label label-info'>false</span></td>
-            <td><span class='label label-info'>true</span></td>
-            <td>
-              
-                <a href='cccc60cd9af3e0316347726f1aaa479f.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>products</a> ::
-              
-              <a href='eea3feb9e68431197b541b73d3500679.html'><span class='node-icon staruml-icon icon-ERDColumn'></span>id</a>
-            </td>
-            <td><span class='label label-info'>false</span></td>
-            <td><span class='label label-info'>false</span></td>
-          </tr>
-          
-          <tr>
-            <td><a href="6dd19a87087c99ad076248dec5c53db2.html">child_id</a></td>
-            <td>STRING(36)</td>
-            <td><span class='label label-info'>false</span></td>
-            <td><span class='label label-info'>true</span></td>
-            <td>
-              
-              <span class='label label-info'>null</span>
-            </td>
-            <td><span class='label label-info'>false</span></td>
-            <td><span class='label label-info'>false</span></td>
-          </tr>
-          
-          <tr>
-            <td><a href="386fa4fc43fab11c37de5b95f2de5f48.html">child_type</a></td>
-            <td>STRING</td>
-            <td><span class='label label-info'>false</span></td>
-            <td><span class='label label-info'>false</span></td>
-            <td>
-              
-              <span class='label label-info'>null</span>
-            </td>
-            <td><span class='label label-info'>false</span></td>
-            <td><span class='label label-info'>false</span></td>
-          </tr>
-          
-          <tr>
-            <td><a href="9e8fa59b34e1c936333f24022c6f0e21.html">quantity</a></td>
+            <td><a href="16b94fd3015e6232c3871311bfa9b331.html">total_number</a></td>
             <td>INTEGER</td>
             <td><span class='label label-info'>false</span></td>
             <td><span class='label label-info'>false</span></td>
@@ -262,8 +221,8 @@
           </tr>
           
           <tr>
-            <td><a href="20446a3b379a5c104288dfcd06a674bb.html">created_at</a></td>
-            <td>DATETIME</td>
+            <td><a href="1e2ecfe95facc34ee1ad3ee7ad757cb7.html">unallocated_number</a></td>
+            <td>INTEGER</td>
             <td><span class='label label-info'>false</span></td>
             <td><span class='label label-info'>false</span></td>
             <td>
@@ -275,20 +234,7 @@
           </tr>
           
           <tr>
-            <td><a href="9183013586be026ffb343d62456defb3.html">updated_at</a></td>
-            <td>DATETIME</td>
-            <td><span class='label label-info'>false</span></td>
-            <td><span class='label label-info'>false</span></td>
-            <td>
-              
-              <span class='label label-info'>null</span>
-            </td>
-            <td><span class='label label-info'>false</span></td>
-            <td><span class='label label-info'>false</span></td>
-          </tr>
-          
-          <tr>
-            <td><a href="6db52b841d53839a0214a6b7edb90679.html">order</a></td>
+            <td><a href="df3accdd1fbffb0ecd1de1ba05c65562.html">allocated_number</a></td>
             <td>INTEGER</td>
             <td><span class='label label-info'>false</span></td>
             <td><span class='label label-info'>false</span></td>
@@ -320,26 +266,10 @@
           
           
           <tr>
-            <td><a href='cccc60cd9af3e0316347726f1aaa479f.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>products</a></td>
-            <td>1</td>
-            <td></td>
-            <td><a href='50a83d70962d99f90ffa934d7e32a31e.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(products—product_links)</a></td>
-          </tr>
-          
-          
-          <tr>
             <td><a href='50b1a937926f523791f67beeeec27e50.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>materials</a></td>
             <td>1</td>
             <td></td>
-            <td><a href='ba8a37749e7ad4566e26416a73930c81.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(materials—product_links)</a></td>
-          </tr>
-          
-          
-          <tr>
-            <td><a href='4518259c5042bdb5c674ffb7ce1fd879.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>work_details</a></td>
-            <td>0..*</td>
-            <td></td>
-            <td><a href='aa19baa9424f4c82782ab4ee4c289397.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(product_links—work_details)</a></td>
+            <td><a href='ebd16a769a264826ff0fa7f834038d79.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(materials—inventories)</a></td>
           </tr>
           
         </table>                
@@ -373,7 +303,7 @@
     
     <tr>
         <td>name</td>
-        <td>product_links</td>
+        <td>inventories</td>
     </tr>
     
     
@@ -406,11 +336,7 @@
     <h3>Relationships</h3>
     <ul class="nav nav-list">
         
-        <li><a href='50a83d70962d99f90ffa934d7e32a31e.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(products—product_links)</a></li>
-        
-        <li><a href='ba8a37749e7ad4566e26416a73930c81.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(materials—product_links)</a></li>
-        
-        <li><a href='aa19baa9424f4c82782ab4ee4c289397.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(product_links—work_details)</a></li>
+        <li><a href='ebd16a769a264826ff0fa7f834038d79.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(materials—inventories)</a></li>
         
     </ul>
 </section>
@@ -421,15 +347,6 @@
 
       
       
-<section class="element-list">
-    <h3>Owned Elements</h3>
-    <ul class="nav nav-list">
-        
-        <li><a href='aa19baa9424f4c82782ab4ee4c289397.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(product_links—work_details)</a></li>
-        
-    </ul>
-</section>
-
 
 
     </div>

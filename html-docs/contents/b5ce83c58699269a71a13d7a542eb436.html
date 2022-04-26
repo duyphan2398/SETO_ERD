@@ -208,7 +208,7 @@
           </tr>
           
           <tr>
-            <td><a href="f9830d4468b96ef35e66e5453a168566.html">parent_id</a></td>
+            <td><a href="f9830d4468b96ef35e66e5453a168566.html">product_id</a></td>
             <td>STRING(36)</td>
             <td><span class='label label-info'>false</span></td>
             <td><span class='label label-info'>true</span></td>
@@ -223,7 +223,7 @@
           </tr>
           
           <tr>
-            <td><a href="6dd19a87087c99ad076248dec5c53db2.html">child_id</a></td>
+            <td><a href="6dd19a87087c99ad076248dec5c53db2.html">material_id</a></td>
             <td>STRING(36)</td>
             <td><span class='label label-info'>false</span></td>
             <td><span class='label label-info'>true</span></td>
@@ -249,7 +249,7 @@
           </tr>
           
           <tr>
-            <td><a href="9e8fa59b34e1c936333f24022c6f0e21.html">quantity</a></td>
+            <td><a href="9e8fa59b34e1c936333f24022c6f0e21.html">quantity_of_linked</a></td>
             <td>INTEGER</td>
             <td><span class='label label-info'>false</span></td>
             <td><span class='label label-info'>false</span></td>
@@ -342,6 +342,22 @@
             <td><a href='aa19baa9424f4c82782ab4ee4c289397.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(product_links—work_details)</a></td>
           </tr>
           
+          
+          <tr>
+            <td><a href='385dd65a7e5eeb57ea8ef706f2938374.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>material_orders</a></td>
+            <td>0..*</td>
+            <td></td>
+            <td><a href='1d2badb8b397ba538db54fc6f89500cf.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(product_links—material_orders)</a></td>
+          </tr>
+          
+          
+          <tr>
+            <td><a href='2c76c279f1889a041de21cc384a28210.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>purchase_order_details</a></td>
+            <td>0..*</td>
+            <td></td>
+            <td><a href='7a2058423e6061d203260ce20d7d12c0.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(product_links—purchase_order_details)</a></td>
+          </tr>
+          
         </table>                
       </section>
       
@@ -412,6 +428,10 @@
         
         <li><a href='aa19baa9424f4c82782ab4ee4c289397.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(product_links—work_details)</a></li>
         
+        <li><a href='1d2badb8b397ba538db54fc6f89500cf.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(product_links—material_orders)</a></li>
+        
+        <li><a href='7a2058423e6061d203260ce20d7d12c0.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(product_links—purchase_order_details)</a></li>
+        
     </ul>
 </section>
 
@@ -426,6 +446,10 @@
     <ul class="nav nav-list">
         
         <li><a href='aa19baa9424f4c82782ab4ee4c289397.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(product_links—work_details)</a></li>
+        
+        <li><a href='1d2badb8b397ba538db54fc6f89500cf.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(product_links—material_orders)</a></li>
+        
+        <li><a href='7a2058423e6061d203260ce20d7d12c0.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(product_links—purchase_order_details)</a></li>
         
     </ul>
 </section>

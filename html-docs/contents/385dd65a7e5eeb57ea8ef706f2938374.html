@@ -1,0 +1,562 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>material_orders</title>
+    <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic|Source+Code+Pro:300,400,700' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="../assets/css/bootstrap.css">
+<link rel="stylesheet" href="../assets/css/jquery.bonsai.css">
+<link rel="stylesheet" href="../assets/css/main.css">
+<link rel="stylesheet" href="../assets/icon-font/icons.css">
+<script type="text/javascript" src="../assets/js/jquery-2.1.0.min.js"></script>
+<script type="text/javascript" src="../assets/js/bootstrap.js"></script>
+<script type="text/javascript" src="../assets/js/jquery.bonsai.js"></script>
+
+  </head>
+  <body>
+    <div>
+
+      <!-- Name Title -->
+
+      <h1>material_orders</h1>
+
+      <!-- Type and Stereotype -->
+
+      <section style="margin-top: .5em;">
+        <span class="alert alert-info">
+          <span class="node-icon staruml-icon icon-ERDEntity"></span>
+          ERDEntity
+        </span>
+        
+      </section>
+
+      <!-- Path -->
+
+      <section style="margin-top: 10px">
+        
+        
+        
+          
+          <span class="label label-info"><a href='cf9c8b720f3815adeccaf3ef6e48c6c4.html'><span class='node-icon staruml-icon icon-Project'></span>SETOTECH -  ERD DIAGRAM</a></span>
+        
+          <span>::</span>
+          <span class="label label-info"><a href='a4bae6b6e7ebfd021fbf52221ebda8e7.html'><span class='node-icon staruml-icon icon-ERDDataModel'></span>v1.1</a></span>
+        
+          <span>::</span>
+          <span class="label label-info"><a href='385dd65a7e5eeb57ea8ef706f2938374.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>material_orders</a></span>
+        
+      </section>
+
+      <!-- Diagram -->
+
+      
+
+      <!-- Description -->
+
+      
+      <section>
+        <h3>Description</h3>
+        <div>
+          
+            <span class="label label-info">none</span>
+          
+        </div>
+      </section>
+      
+
+      <!-- Specification -->
+
+      
+
+      <!-- Directed Relationship -->
+
+      
+
+      <!-- Undirected Relationship -->
+
+      
+
+      <!-- Classifier -->
+
+      
+
+      <!-- Interface -->
+
+      
+
+      <!-- Component -->
+
+      
+
+      <!-- Node -->
+
+      
+
+      <!-- Actor -->
+
+      
+
+      <!-- Use Case -->
+
+      
+
+      <!-- Template Parameters -->
+
+      
+
+      <!-- Literals -->
+
+      
+
+      <!-- Attributes -->
+
+      
+
+      <!-- Operations -->
+
+      
+
+      <!-- Receptions -->
+
+      
+
+      <!-- Extension Points -->
+
+      
+
+      <!-- Parameters -->
+
+      
+
+      <!-- Diagrams -->
+
+      
+      
+
+      <!-- Behavior -->
+
+      
+
+      <!-- Action -->
+
+      
+
+      <!-- Interaction -->
+
+      
+
+      <!-- CombinedFragment -->
+
+      
+
+      <!-- Activity -->
+
+      
+
+      <!-- State Machine -->
+
+      
+
+      <!-- State Machine -->
+
+      
+
+      <!-- State -->
+
+      
+
+      <!-- Vertex -->
+
+      
+
+      <!-- Transition -->
+
+      
+
+      <!-- Data Model (ERD) -->
+
+      
+
+      <!-- Columns (ERD) -->
+
+      
+      <section>
+        <h3>Columns</h3>
+        
+        <table class="table table-striped table-bordered">
+          <tr>
+            <th width="20%">Name</th>
+            <th width="20%">Type</th>
+            <th width="10%">Primary Key</th>
+            <th width="10%">Foreign Key</th>
+            <th width="20%">Reference To</th>
+            <th width="10%">Nullable</th>
+            <th width="10%">Unique</th>
+          </tr>
+          
+          <tr>
+            <td><a href="a6856ae5faae94115e76e11f5abf6806.html">id</a></td>
+            <td>STRING(36)</td>
+            <td><span class='label label-info'>true</span></td>
+            <td><span class='label label-info'>false</span></td>
+            <td>
+              
+              <span class='label label-info'>null</span>
+            </td>
+            <td><span class='label label-info'>false</span></td>
+            <td><span class='label label-info'>false</span></td>
+          </tr>
+          
+          <tr>
+            <td><a href="cc23d7c592a7f3b545c9e0b523361eea.html">status</a></td>
+            <td>STRING</td>
+            <td><span class='label label-info'>false</span></td>
+            <td><span class='label label-info'>false</span></td>
+            <td>
+              
+              <span class='label label-info'>null</span>
+            </td>
+            <td><span class='label label-info'>false</span></td>
+            <td><span class='label label-info'>false</span></td>
+          </tr>
+          
+          <tr>
+            <td><a href="73d851a57d782c36c0019dbc8176d734.html">supplier_id</a></td>
+            <td>STRING(36)</td>
+            <td><span class='label label-info'>false</span></td>
+            <td><span class='label label-info'>true</span></td>
+            <td>
+              
+                <a href='63e38ea170a38580e410578fee33b4cd.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>partners</a> ::
+              
+              <a href='1f93954569d83c2e9a95b1eb89aad751.html'><span class='node-icon staruml-icon icon-ERDColumn'></span>id</a>
+            </td>
+            <td><span class='label label-info'>false</span></td>
+            <td><span class='label label-info'>false</span></td>
+          </tr>
+          
+          <tr>
+            <td><a href="428bb6e6b51a146aa4bbcd1159664093.html">purchase_order_id</a></td>
+            <td>STRING(36)</td>
+            <td><span class='label label-info'>false</span></td>
+            <td><span class='label label-info'>true</span></td>
+            <td>
+              
+                <a href='7eb6faf74cbf3f01d2e0b4f789feeceb.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>purchase_orders</a> ::
+              
+              <a href='e106ce013da6e6557a765fe0e91a7bb1.html'><span class='node-icon staruml-icon icon-ERDColumn'></span>id</a>
+            </td>
+            <td><span class='label label-info'>true</span></td>
+            <td><span class='label label-info'>false</span></td>
+          </tr>
+          
+          <tr>
+            <td><a href="2aebb88363393970c34c03af7fa5413f.html">material_id</a></td>
+            <td>STRING(36)</td>
+            <td><span class='label label-info'>false</span></td>
+            <td><span class='label label-info'>true</span></td>
+            <td>
+              
+                <a href='50b1a937926f523791f67beeeec27e50.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>materials</a> ::
+              
+              <a href='861c17726a5f782295300e4a600e8b41.html'><span class='node-icon staruml-icon icon-ERDColumn'></span>id</a>
+            </td>
+            <td><span class='label label-info'>false</span></td>
+            <td><span class='label label-info'>false</span></td>
+          </tr>
+          
+          <tr>
+            <td><a href="1fbc04603209c6ce12c8b8a686200ac2.html">material_order_number</a></td>
+            <td>STRING</td>
+            <td><span class='label label-info'>false</span></td>
+            <td><span class='label label-info'>false</span></td>
+            <td>
+              
+              <span class='label label-info'>null</span>
+            </td>
+            <td><span class='label label-info'>false</span></td>
+            <td><span class='label label-info'>true</span></td>
+          </tr>
+          
+          <tr>
+            <td><a href="01ee02e4324d72833d690b084fb87549.html">material_arrival_number</a></td>
+            <td>STRING(36)</td>
+            <td><span class='label label-info'>false</span></td>
+            <td><span class='label label-info'>false</span></td>
+            <td>
+              
+              <span class='label label-info'>null</span>
+            </td>
+            <td><span class='label label-info'>true</span></td>
+            <td><span class='label label-info'>true</span></td>
+          </tr>
+          
+          <tr>
+            <td><a href="827c90786f49213a0c4008146e559c21.html">model</a></td>
+            <td>STRING</td>
+            <td><span class='label label-info'>false</span></td>
+            <td><span class='label label-info'>false</span></td>
+            <td>
+              
+              <span class='label label-info'>null</span>
+            </td>
+            <td><span class='label label-info'>true</span></td>
+            <td><span class='label label-info'>false</span></td>
+          </tr>
+          
+          <tr>
+            <td><a href="9fc0149c34a6b474e7356e52c9592e5e.html">color</a></td>
+            <td>STRING</td>
+            <td><span class='label label-info'>false</span></td>
+            <td><span class='label label-info'>false</span></td>
+            <td>
+              
+              <span class='label label-info'>null</span>
+            </td>
+            <td><span class='label label-info'>true</span></td>
+            <td><span class='label label-info'>false</span></td>
+          </tr>
+          
+          <tr>
+            <td><a href="34f20a7ec70e11b72f3b126bf7fb0ae8.html">material_order_quantity</a></td>
+            <td>INTEGER</td>
+            <td><span class='label label-info'>false</span></td>
+            <td><span class='label label-info'>false</span></td>
+            <td>
+              
+              <span class='label label-info'>null</span>
+            </td>
+            <td><span class='label label-info'>true</span></td>
+            <td><span class='label label-info'>false</span></td>
+          </tr>
+          
+          <tr>
+            <td><a href="30e4927a70d10a792120d2b750634115.html">material_order_date</a></td>
+            <td>DATE</td>
+            <td><span class='label label-info'>false</span></td>
+            <td><span class='label label-info'>false</span></td>
+            <td>
+              
+              <span class='label label-info'>null</span>
+            </td>
+            <td><span class='label label-info'>true</span></td>
+            <td><span class='label label-info'>false</span></td>
+          </tr>
+          
+          <tr>
+            <td><a href="bb85d4c843507bf9763a3facef60c07e.html">expected_arrival_date</a></td>
+            <td>DATE</td>
+            <td><span class='label label-info'>false</span></td>
+            <td><span class='label label-info'>false</span></td>
+            <td>
+              
+              <span class='label label-info'>null</span>
+            </td>
+            <td><span class='label label-info'>true</span></td>
+            <td><span class='label label-info'>false</span></td>
+          </tr>
+          
+          <tr>
+            <td><a href="c57dcf873531258bcf311dd784e8f35d.html">arrival_date</a></td>
+            <td>DATE</td>
+            <td><span class='label label-info'>false</span></td>
+            <td><span class='label label-info'>false</span></td>
+            <td>
+              
+              <span class='label label-info'>null</span>
+            </td>
+            <td><span class='label label-info'>true</span></td>
+            <td><span class='label label-info'>false</span></td>
+          </tr>
+          
+          <tr>
+            <td><a href="b920c117c6ff76f1925e114086a83c60.html">created_at</a></td>
+            <td>DATETIME</td>
+            <td><span class='label label-info'>false</span></td>
+            <td><span class='label label-info'>false</span></td>
+            <td>
+              
+              <span class='label label-info'>null</span>
+            </td>
+            <td><span class='label label-info'>false</span></td>
+            <td><span class='label label-info'>false</span></td>
+          </tr>
+          
+          <tr>
+            <td><a href="239a32f9c757ae8b62d74b7ca68a05d7.html">updated_at</a></td>
+            <td>DATETIME</td>
+            <td><span class='label label-info'>false</span></td>
+            <td><span class='label label-info'>false</span></td>
+            <td>
+              
+              <span class='label label-info'>null</span>
+            </td>
+            <td><span class='label label-info'>false</span></td>
+            <td><span class='label label-info'>false</span></td>
+          </tr>
+          
+        </table>                
+      </section>
+      
+
+      <!-- Related Entities (ERD) -->
+
+      
+      <section>
+        <h3>Related Entities</h3>
+        
+        <table class="table table-striped table-bordered">
+          <tr>
+            <th width="25%">Entity</th>
+            <th width="25%">Cardinality</th>
+            <th width="25%">Reference Name</th>
+            <th width="25%">Relationship</th>
+          </tr>
+          
+          
+          <tr>
+            <td><a href='7eb6faf74cbf3f01d2e0b4f789feeceb.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>purchase_orders</a></td>
+            <td>1</td>
+            <td></td>
+            <td><a href='1d3cc17266b45656197cba68fad6ee46.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(purchase_orders—material_orders)</a></td>
+          </tr>
+          
+          
+          <tr>
+            <td><a href='b5ce83c58699269a71a13d7a542eb436.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>product_links</a></td>
+            <td>1</td>
+            <td></td>
+            <td><a href='1d2badb8b397ba538db54fc6f89500cf.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(product_links—material_orders)</a></td>
+          </tr>
+          
+          
+          <tr>
+            <td><a href='50b1a937926f523791f67beeeec27e50.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>materials</a></td>
+            <td>1</td>
+            <td></td>
+            <td><a href='9ff3546cdd8c121153f7b7570c087b57.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(materials—material_orders)</a></td>
+          </tr>
+          
+          
+          <tr>
+            <td><a href='385dd65a7e5eeb57ea8ef706f2938374.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>material_orders</a></td>
+            <td>0..*</td>
+            <td></td>
+            <td><a href='5e0a616b2fa5746547d4a5c8797e48cc.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(material_orders—material_orders)</a></td>
+          </tr>
+          
+          
+          <tr>
+            <td><a href='2c76c279f1889a041de21cc384a28210.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>purchase_order_details</a></td>
+            <td>1</td>
+            <td></td>
+            <td><a href='2395697328237dac21ac2bc0b2d32aaf.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(purchase_order_details—material_orders)</a></td>
+          </tr>
+          
+          
+          <tr>
+            <td><a href='7eb6faf74cbf3f01d2e0b4f789feeceb.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>purchase_orders</a></td>
+            <td>1</td>
+            <td></td>
+            <td><a href='541d85051e8255417012dab228e16867.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(purchase_orders—material_orders)</a></td>
+          </tr>
+          
+        </table>                
+      </section>
+      
+
+      <!-- Data Flows (DFD) -->
+
+      
+
+      <!-- Flows (Flowchart) -->
+
+      
+
+      <!-- Properties -->
+
+      <section>
+        <h3>Properties</h3>
+        
+        <table class="table table-striped table-bordered">
+    <tr>
+        <th width="50%">Name</th>
+        <th width="50%">Value</th>
+    </tr>
+    
+    
+    
+    
+    
+    
+    
+    <tr>
+        <td>name</td>
+        <td>material_orders</td>
+    </tr>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</table>                
+
+      </section>
+
+      <!-- Tags -->
+
+      
+
+      <!-- Constraints, Dependencies, Dependants -->
+
+      
+
+      <!-- Relationships -->
+
+      
+      
+<section class="element-list">
+    <h3>Relationships</h3>
+    <ul class="nav nav-list">
+        
+        <li><a href='1d3cc17266b45656197cba68fad6ee46.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(purchase_orders—material_orders)</a></li>
+        
+        <li><a href='1d2badb8b397ba538db54fc6f89500cf.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(product_links—material_orders)</a></li>
+        
+        <li><a href='9ff3546cdd8c121153f7b7570c087b57.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(materials—material_orders)</a></li>
+        
+        <li><a href='5e0a616b2fa5746547d4a5c8797e48cc.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(material_orders—material_orders)</a></li>
+        
+        <li><a href='2395697328237dac21ac2bc0b2d32aaf.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(purchase_order_details—material_orders)</a></li>
+        
+        <li><a href='541d85051e8255417012dab228e16867.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(purchase_orders—material_orders)</a></li>
+        
+    </ul>
+</section>
+
+
+
+      <!-- Owned Elements -->
+
+      
+      
+<section class="element-list">
+    <h3>Owned Elements</h3>
+    <ul class="nav nav-list">
+        
+        <li><a href='5e0a616b2fa5746547d4a5c8797e48cc.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(material_orders—material_orders)</a></li>
+        
+    </ul>
+</section>
+
+
+
+    </div>
+  </body>
+</html>

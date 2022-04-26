@@ -6009,7 +6009,11 @@
 							},
 							"name": "purchase_order_id",
 							"type": "STRING",
-							"length": "36"
+							"length": "36",
+							"foreignKey": true,
+							"referenceTo": {
+								"$ref": "AAAAAAGAWf9GnCgopuo="
+							}
 						},
 						{
 							"_type": "ERDColumn",

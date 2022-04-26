@@ -1143,38 +1143,6 @@
 										},
 										{
 											"_type": "ERDColumnView",
-											"_id": "AAAAAAGAWe6fJSciNcs=",
-											"_parent": {
-												"$ref": "AAAAAAGAWe6fGibZB30="
-											},
-											"model": {
-												"$ref": "AAAAAAGAWe0mciXbteU="
-											},
-											"visible": false,
-											"font": "Arial;13;0",
-											"left": 5613,
-											"top": 2017,
-											"width": 264.14990234375,
-											"height": 13
-										},
-										{
-											"_type": "ERDColumnView",
-											"_id": "AAAAAAGAWe6fJSclWWc=",
-											"_parent": {
-												"$ref": "AAAAAAGAWe6fGibZB30="
-											},
-											"model": {
-												"$ref": "AAAAAAGAWe0mciXcy3g="
-											},
-											"visible": false,
-											"font": "Arial;13;0",
-											"left": 5613,
-											"top": 2032,
-											"width": 264.14990234375,
-											"height": 13
-										},
-										{
-											"_type": "ERDColumnView",
 											"_id": "AAAAAAGAWe6fJicoL4E=",
 											"_parent": {
 												"$ref": "AAAAAAGAWe6fGibZB30="
@@ -3869,7 +3837,7 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 4463,
+									"left": 4279,
 									"top": 1513,
 									"height": 13,
 									"alpha": 1.5707963267948966,
@@ -3921,7 +3889,7 @@
 								"$ref": "AAAAAAGAVyikzRwPcD0="
 							},
 							"lineStyle": 2,
-							"points": "4112:1064;4448:1064;4448:1976;3911:1976",
+							"points": "4112:1064;4264:1064;4264:1976;3911:1976",
 							"nameLabel": {
 								"$ref": "AAAAAAGAZuCHjVxtknk="
 							},
@@ -4343,34 +4311,6 @@
 						},
 						{
 							"_type": "ERDRelationship",
-							"_id": "AAAAAAGAV419zx4ZQDw=",
-							"_parent": {
-								"$ref": "AAAAAAGAVyikzBwNfcw="
-							},
-							"end1": {
-								"_type": "ERDRelationshipEnd",
-								"_id": "AAAAAAGAV419zx4afEI=",
-								"_parent": {
-									"$ref": "AAAAAAGAV419zx4ZQDw="
-								},
-								"reference": {
-									"$ref": "AAAAAAGAVyikzBwNfcw="
-								}
-							},
-							"end2": {
-								"_type": "ERDRelationshipEnd",
-								"_id": "AAAAAAGAV419zx4beLU=",
-								"_parent": {
-									"$ref": "AAAAAAGAV419zx4ZQDw="
-								},
-								"reference": {
-									"$ref": "AAAAAAGAVylYzhwcw6E="
-								},
-								"cardinality": "0"
-							}
-						},
-						{
-							"_type": "ERDRelationship",
 							"_id": "AAAAAAGAWk1GGSiiO9A=",
 							"_parent": {
 								"$ref": "AAAAAAGAVyikzBwNfcw="
@@ -4679,87 +4619,6 @@
 				},
 				{
 					"_type": "ERDEntity",
-					"_id": "AAAAAAGAVylYzhwcw6E=",
-					"_parent": {
-						"$ref": "AAAAAAGAVop6qRvmE8s="
-					},
-					"name": "materials",
-					"columns": [
-						{
-							"_type": "ERDColumn",
-							"_id": "AAAAAAGAVynpjRwpnCk=",
-							"_parent": {
-								"$ref": "AAAAAAGAVylYzhwcw6E="
-							},
-							"name": "id",
-							"type": "STRING",
-							"length": "36",
-							"primaryKey": true
-						},
-						{
-							"_type": "ERDColumn",
-							"_id": "AAAAAAGAV1EJORycpsI=",
-							"_parent": {
-								"$ref": "AAAAAAGAVylYzhwcw6E="
-							},
-							"name": "standar_use_quantity",
-							"type": "INTEGER",
-							"length": 0
-						},
-						{
-							"_type": "ERDColumn",
-							"_id": "AAAAAAGAV09PjRyMOl4=",
-							"_parent": {
-								"$ref": "AAAAAAGAVylYzhwcw6E="
-							},
-							"name": "standard_stock",
-							"type": "INTEGER",
-							"length": 0
-						},
-						{
-							"_type": "ERDColumn",
-							"_id": "AAAAAAGAV0+EixyUjTs=",
-							"_parent": {
-								"$ref": "AAAAAAGAVylYzhwcw6E="
-							},
-							"name": "material_order_quantity",
-							"type": "INTEGER",
-							"length": 0
-						},
-						{
-							"_type": "ERDColumn",
-							"_id": "AAAAAAGAV1XUVRy8tR8=",
-							"_parent": {
-								"$ref": "AAAAAAGAVylYzhwcw6E="
-							},
-							"name": "auto_order",
-							"type": "BOOLEAN",
-							"length": 0
-						},
-						{
-							"_type": "ERDColumn",
-							"_id": "AAAAAAGAV1bkWBzDYK4=",
-							"_parent": {
-								"$ref": "AAAAAAGAVylYzhwcw6E="
-							},
-							"name": "inventory_management",
-							"type": "BOOLEAN",
-							"length": 0
-						},
-						{
-							"_type": "ERDColumn",
-							"_id": "AAAAAAGAV5TCPx6qSSI=",
-							"_parent": {
-								"$ref": "AAAAAAGAVylYzhwcw6E="
-							},
-							"name": "work_instruction",
-							"type": "BOOLEAN",
-							"length": 0
-						}
-					]
-				},
-				{
-					"_type": "ERDEntity",
 					"_id": "AAAAAAGAV2dImxzhMBs=",
 					"_parent": {
 						"$ref": "AAAAAAGAVop6qRvmE8s="
@@ -4943,34 +4802,6 @@
 					"ownedElements": [
 						{
 							"_type": "ERDRelationship",
-							"_id": "AAAAAAGAV5P8NR5/J3Y=",
-							"_parent": {
-								"$ref": "AAAAAAGAV5AHjR46eU0="
-							},
-							"end1": {
-								"_type": "ERDRelationshipEnd",
-								"_id": "AAAAAAGAV5P8NR6AeXo=",
-								"_parent": {
-									"$ref": "AAAAAAGAV5P8NR5/J3Y="
-								},
-								"reference": {
-									"$ref": "AAAAAAGAV5AHjR46eU0="
-								}
-							},
-							"end2": {
-								"_type": "ERDRelationshipEnd",
-								"_id": "AAAAAAGAV5P8NR6BpS4=",
-								"_parent": {
-									"$ref": "AAAAAAGAV5P8NR5/J3Y="
-								},
-								"reference": {
-									"$ref": "AAAAAAGAVylYzhwcw6E="
-								},
-								"cardinality": "0..*"
-							}
-						},
-						{
-							"_type": "ERDRelationship",
 							"_id": "AAAAAAGAWflJbifzQ4c=",
 							"_parent": {
 								"$ref": "AAAAAAGAV5AHjR46eU0="
@@ -5106,34 +4937,6 @@
 									"$ref": "AAAAAAGAWe0mcSXGqKc="
 								},
 								"cardinality": "0..*"
-							}
-						},
-						{
-							"_type": "ERDRelationship",
-							"_id": "AAAAAAGAWe0mcSXNigY=",
-							"_parent": {
-								"$ref": "AAAAAAGAWe0mcSXGqKc="
-							},
-							"end1": {
-								"_type": "ERDRelationshipEnd",
-								"_id": "AAAAAAGAWe0mcSXOQSY=",
-								"_parent": {
-									"$ref": "AAAAAAGAWe0mcSXNigY="
-								},
-								"reference": {
-									"$ref": "AAAAAAGAWe0mcSXGqKc="
-								}
-							},
-							"end2": {
-								"_type": "ERDRelationshipEnd",
-								"_id": "AAAAAAGAWe0mcSXPLdM=",
-								"_parent": {
-									"$ref": "AAAAAAGAWe0mcSXNigY="
-								},
-								"reference": {
-									"$ref": "AAAAAAGAVylYzhwcw6E="
-								},
-								"cardinality": "0"
 							}
 						},
 						{
@@ -5321,7 +5124,10 @@
 							"name": "part_type_id",
 							"type": "STRING",
 							"length": "36",
-							"foreignKey": true
+							"foreignKey": true,
+							"referenceTo": {
+								"$ref": "AAAAAAGAV5Ag7h5HA/A="
+							}
 						},
 						{
 							"_type": "ERDColumn",
@@ -5402,27 +5208,6 @@
 							"name": "delivery_time",
 							"type": "DATE",
 							"length": 0
-						},
-						{
-							"_type": "ERDColumn",
-							"_id": "AAAAAAGAWe0mciXbteU=",
-							"_parent": {
-								"$ref": "AAAAAAGAWe0mcSXGqKc="
-							},
-							"name": "productable_type",
-							"type": "STRING",
-							"length": "36"
-						},
-						{
-							"_type": "ERDColumn",
-							"_id": "AAAAAAGAWe0mciXcy3g=",
-							"_parent": {
-								"$ref": "AAAAAAGAWe0mcSXGqKc="
-							},
-							"name": "productable_id",
-							"type": "STRING",
-							"length": "36",
-							"foreignKey": true
 						},
 						{
 							"_type": "ERDColumn",

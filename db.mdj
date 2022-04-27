@@ -5344,7 +5344,6 @@
 							"name": "product_code",
 							"type": "STRING",
 							"length": 0,
-							"nullable": true,
 							"unique": true
 						},
 						{

@@ -6419,7 +6419,7 @@
 							"_parent": {
 								"$ref": "AAAAAAGAWf8aLygb43E="
 							},
-							"name": "status_purchase_order",
+							"name": "purchase_order_status",
 							"type": "STRING",
 							"length": 0
 						},
@@ -6429,7 +6429,7 @@
 							"_parent": {
 								"$ref": "AAAAAAGAWf8aLygb43E="
 							},
-							"name": "status_purchase_order_table",
+							"name": "purchase_order_table_status",
 							"type": "STRING",
 							"length": 0
 						},

@@ -6132,7 +6132,7 @@
 								"$ref": "AAAAAAGAWe0mcSXGqKc="
 							},
 							"name": "lead_time",
-							"type": "DATE",
+							"type": "INTEGER",
 							"length": 0
 						},
 						{
@@ -6142,7 +6142,7 @@
 								"$ref": "AAAAAAGAWe0mcSXGqKc="
 							},
 							"name": "delivery_time",
-							"type": "DATE",
+							"type": "INTEGER",
 							"length": 0
 						},
 						{
@@ -6463,7 +6463,7 @@
 								"$ref": "AAAAAAGAWf8aLygb43E="
 							},
 							"name": "purchase_order_date",
-							"type": "DATE",
+							"type": "DATETIME",
 							"length": 0
 						},
 						{
@@ -6539,7 +6539,7 @@
 								"$ref": "AAAAAAGAWf8aLygb43E="
 							},
 							"name": "delivery_date",
-							"type": "DATE",
+							"type": "DATETIME",
 							"length": 0
 						},
 						{
@@ -6549,7 +6549,7 @@
 								"$ref": "AAAAAAGAWf8aLygb43E="
 							},
 							"name": "customer_production_date",
-							"type": "DATE",
+							"type": "DATETIME",
 							"length": 0
 						},
 						{
@@ -6559,7 +6559,7 @@
 								"$ref": "AAAAAAGAWf8aLygb43E="
 							},
 							"name": "regist_date",
-							"type": "DATE",
+							"type": "DATETIME",
 							"length": 0
 						},
 						{
@@ -7309,7 +7309,7 @@
 							},
 							"name": "material_arrival_number",
 							"type": "STRING",
-							"length": "36",
+							"length": 0,
 							"nullable": true,
 							"unique": true
 						},
@@ -7343,8 +7343,7 @@
 							},
 							"name": "material_order_quantity",
 							"type": "INTEGER",
-							"length": 0,
-							"nullable": true
+							"length": 0
 						},
 						{
 							"_type": "ERDColumn",
@@ -7353,7 +7352,7 @@
 								"$ref": "AAAAAAGAYc/GxlnQzwc="
 							},
 							"name": "material_order_date",
-							"type": "DATE",
+							"type": "DATETIME",
 							"length": 0,
 							"nullable": true
 						},
@@ -7364,7 +7363,7 @@
 								"$ref": "AAAAAAGAYc/GxlnQzwc="
 							},
 							"name": "expected_arrival_date",
-							"type": "DATE",
+							"type": "DATETIME",
 							"length": 0,
 							"nullable": true
 						},
@@ -7374,8 +7373,8 @@
 							"_parent": {
 								"$ref": "AAAAAAGAYc/GxlnQzwc="
 							},
-							"name": "arrival_date",
-							"type": "DATE",
+							"name": "actual_arrival_date",
+							"type": "DATETIME",
 							"length": 0,
 							"nullable": true
 						},

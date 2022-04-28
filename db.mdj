@@ -7685,7 +7685,8 @@
 							},
 							"name": "allocated_quantity",
 							"type": "INTEGER",
-							"length": 0
+							"length": 0,
+							"nullable": true
 						},
 						{
 							"_type": "ERDColumn",

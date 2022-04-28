@@ -5349,7 +5349,7 @@
 								"$ref": "AAAAAAGAVyikzBwNfcw="
 							},
 							"name": "lead_time",
-							"type": "DATE",
+							"type": "INTEGER",
 							"length": 0
 						},
 						{
@@ -5359,7 +5359,7 @@
 								"$ref": "AAAAAAGAVyikzBwNfcw="
 							},
 							"name": "delivery_time",
-							"type": "DATE",
+							"type": "INTEGER",
 							"length": 0
 						},
 						{
@@ -6488,7 +6488,8 @@
 							},
 							"name": "customer_order_number",
 							"type": "STRING",
-							"length": 0
+							"length": 0,
+							"nullable": true
 						},
 						{
 							"_type": "ERDColumn",
@@ -7653,7 +7654,8 @@
 							},
 							"name": "shipping_date",
 							"type": "DATE",
-							"length": 0
+							"length": 0,
+							"nullable": true
 						},
 						{
 							"_type": "ERDColumn",

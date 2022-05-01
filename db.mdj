@@ -6443,7 +6443,8 @@
 							},
 							"name": "purchase_order_table_status",
 							"type": "STRING",
-							"length": 0
+							"length": 0,
+							"nullable": true
 						},
 						{
 							"_type": "ERDColumn",

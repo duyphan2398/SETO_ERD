@@ -6868,7 +6868,7 @@
 							"_parent": {
 								"$ref": "AAAAAAGAWnqrdil9oWE="
 							},
-							"name": "material_id",
+							"name": "child_id",
 							"type": "STRING",
 							"length": "36",
 							"foreignKey": true

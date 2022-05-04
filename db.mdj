@@ -1643,21 +1643,6 @@
 										},
 										{
 											"_type": "ERDColumnView",
-											"_id": "AAAAAAGAWh+LsiiI5Eo=",
-											"_parent": {
-												"$ref": "AAAAAAGAWf8aMCgfjQU="
-											},
-											"model": {
-												"$ref": "AAAAAAGAWh+LrSiFuKU="
-											},
-											"font": "Arial;13;0",
-											"left": 3541,
-											"top": 1398,
-											"width": 305.3525390625,
-											"height": 13
-										},
-										{
-											"_type": "ERDColumnView",
 											"_id": "AAAAAAGAWmlSqik3eBY=",
 											"_parent": {
 												"$ref": "AAAAAAGAWf8aMCgfjQU="
@@ -1667,7 +1652,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 3541,
-											"top": 1413,
+											"top": 1398,
 											"width": 305.3525390625,
 											"height": 13
 										},
@@ -1682,7 +1667,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 3541,
-											"top": 1428,
+											"top": 1413,
 											"width": 305.3525390625,
 											"height": 13
 										},
@@ -1697,7 +1682,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 3541,
-											"top": 1443,
+											"top": 1428,
 											"width": 305.3525390625,
 											"height": 13
 										},
@@ -1712,7 +1697,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 3541,
-											"top": 1458,
+											"top": 1443,
 											"width": 305.3525390625,
 											"height": 13
 										}
@@ -1721,7 +1706,7 @@
 									"left": 3536,
 									"top": 1183,
 									"width": 315.3525390625,
-									"height": 293
+									"height": 278
 								}
 							],
 							"font": "Arial;13;0",
@@ -6588,16 +6573,6 @@
 								"$ref": "AAAAAAGAWf8aLygb43E="
 							},
 							"name": "customer_production_date",
-							"type": "DATETIME",
-							"length": 0
-						},
-						{
-							"_type": "ERDColumn",
-							"_id": "AAAAAAGAWh+LrSiFuKU=",
-							"_parent": {
-								"$ref": "AAAAAAGAWf8aLygb43E="
-							},
-							"name": "regist_date",
 							"type": "DATETIME",
 							"length": 0
 						},
